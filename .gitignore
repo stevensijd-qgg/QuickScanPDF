@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# release artifacts are published on GitHub Releases, not committed
+*.apk
+*.aab
+*.pdf

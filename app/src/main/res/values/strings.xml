@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快扫PDF</string>
+    <string name="tagline">拍照或从相册选图\n自动裁边 · 拉正 · 去阴影 · 增强，一键合成 PDF</string>
+    <string name="scan">开始扫描</string>
+    <string name="save_hint_q">文件自动保存到「下载/QuickScan」</string>
+    <string name="save_hint_legacy">扫描完成后选择保存位置</string>
+    <string name="saved">已保存</string>
+    <string name="open">打开</string>
+    <string name="share">分享</string>
+    <string name="share_title">分享 PDF</string>
+    <string name="meta_format">%1$d 页 · %2$s · %3$s</string>
+    <string name="location_downloads">下载/QuickScan</string>
+    <string name="location_picked">你选择的位置</string>
+    <string name="file_prefix">扫描</string>
+    <string name="saving">正在保存…</string>
+    <string name="processing">正在优化第 %1$d / %2$d 页…</string>
+    <string name="clean_switch">白纸优化：清理没对齐的边缘，背景变纯白</string>
+    <string name="rename">重命名</string>
+    <string name="rename_title">重命名文件</string>
+    <string name="rename_empty">文件名不能为空</string>
+    <string name="rename_bad_chars">不能包含 \\ / : * ? \" &lt; &gt; |</string>
+    <string name="rename_not_found">找不到这个文件，可能已被移动或删除</string>
+    <string name="renamed">已重命名为 %1$s</string>
+    <string name="rename_failed">重命名失败：%1$s</string>
+    <string name="no_pdf">没有拿到扫描结果，请重试</string>
+    <string name="no_viewer">手机上没有能打开 PDF 的应用</string>
+    <string name="save_failed">保存失败：%1$s</string>
+    <string name="scanner_failed">无法启动扫描：%1$s\n请确认已安装并更新 Google Play 服务</string>
+</resources>

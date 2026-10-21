@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 108x108 adaptive-icon foreground: a page with a folded corner, text lines and scan brackets -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- scan brackets -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,40 L30,32 Q30,30 32,30 L40,30 M68,30 L76,30 Q78,30 78,32 L78,40 M78,68 L78,76 Q78,78 76,78 L68,78 M40,78 L32,78 Q30,78 30,76 L30,68"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeColor="@color/icon_page" />
+    <!-- page -->
+    <path
+        android:fillColor="@color/icon_page"
+        android:pathData="M40,36 L60,36 L70,46 L70,72 Q70,73 69,73 L40,73 Q39,73 39,72 L39,37 Q39,36 40,36 Z" />
+    <!-- folded corner -->
+    <path
+        android:fillColor="#F0C6B6"
+        android:pathData="M60,36 L60,45 Q60,46 61,46 L70,46 Z" />
+    <!-- text lines -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M45,52 L64,52 M45,58 L64,58 M45,64 L57,64"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="@color/icon_bg" />
+</vector>

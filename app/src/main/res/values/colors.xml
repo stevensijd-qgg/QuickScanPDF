@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F7F5F0</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="stroke">#E4E0D8</color>
+    <color name="text">#2B2A27</color>
+    <color name="text_secondary">#6B6862</color>
+    <color name="primary">#C96442</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="icon_bg">#C96442</color>
+    <color name="icon_page">#FFFFFF</color>
+</resources>
