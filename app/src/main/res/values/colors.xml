@@ -3,10 +3,24 @@
     <color name="bg">#F7F5F0</color>
     <color name="surface">#FFFFFF</color>
     <color name="stroke">#E4E0D8</color>
+    <color name="divider">#EFEBE4</color>
     <color name="text">#2B2A27</color>
     <color name="text_secondary">#6B6862</color>
     <color name="primary">#C96442</color>
     <color name="on_primary">#FFFFFF</color>
+    <color name="link">#9C4A2C</color>
+    <color name="track_off">#D6D1C8</color>
+    <color name="segment_bg">#ECE8E0</color>
+    <color name="tile">#F3EEE6</color>
+    <color name="stage">#F3F1EC</color>
+    <color name="thumb_frame">#FBFAF7</color>
+    <color name="badge_bg">#F7E4DB</color>
+    <color name="badge_ink">#8A3F24</color>
+    <color name="badge_muted_bg">#EFEBE4</color>
+    <color name="badge_muted_ink">#5E5B55</color>
+    <color name="workspace">#24231F</color>
+    <color name="toast_bg">#2B2A27</color>
+    <color name="toast_text">#FFFFFF</color>
     <color name="icon_bg">#C96442</color>
     <color name="icon_page">#FFFFFF</color>
 </resources>

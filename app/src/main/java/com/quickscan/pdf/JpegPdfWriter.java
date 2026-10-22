@@ -30,7 +30,12 @@ final class JpegPdfWriter {
     }
 
     void addPage(byte[] jpeg, int width, int height) throws IOException {
-        float pageHeight = PAGE_WIDTH * height / width;
+        addPage(jpeg, width, height, PAGE_WIDTH);
+    }
+
+    /** @param pageWidth page width in points; the height follows the image's shape */
+    void addPage(byte[] jpeg, int width, int height, float pageWidth) throws IOException {
+        float pageHeight = pageWidth * height / width;
 
         int image = beginObject();
         write("<< /Type /XObject /Subtype /Image /Width " + width + " /Height " + height
@@ -38,7 +43,7 @@ final class JpegPdfWriter {
         out.write(jpeg);
         write("\nendstream\nendobj\n");
 
-        byte[] content = String.format(Locale.US, "q %.2f 0 0 %.2f 0 0 cm /Im0 Do Q", PAGE_WIDTH, pageHeight)
+        byte[] content = String.format(Locale.US, "q %.2f 0 0 %.2f 0 0 cm /Im0 Do Q", pageWidth, pageHeight)
                 .getBytes(StandardCharsets.US_ASCII);
         int contents = beginObject();
         write("<< /Length " + content.length + " >>\nstream\n");
@@ -48,7 +53,7 @@ final class JpegPdfWriter {
         int page = beginObject();
         write(String.format(Locale.US,
                 "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 %.2f %.2f] /Resources << /XObject << /Im0 %d 0 R >> >> /Contents %d 0 R >>\nendobj\n",
-                PAGE_WIDTH, pageHeight, image, contents));
+                pageWidth, pageHeight, image, contents));
         pageObjects.add(page);
     }
 

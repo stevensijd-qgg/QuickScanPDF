@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#22888888">
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#1F2B2A27">
     <item>
         <shape android:shape="rectangle">
             <solid android:color="@color/surface" />
